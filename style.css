@@ -1,0 +1,39 @@
+body {
+    font-family: Arial,sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.gemonvensta {
+    background-color: #c2cd62;
+    padding: 13px;
+    border-radius:15px;
+    box-shadow: 0 0 12px;
+    transition-delay: 50ms;
+    
+    text-align: center;
+}
+h1 {
+    color:rgb(24, 8, 250);
+    margin-bottom: 20px;   
+}
+.bmi-form label {
+    display:block
+    margin-bottom: 5px;
+    color: #555;
+
+}
+.bmi-form button:hover {
+    background-color: #4cae4c;
+}
+.bmi-form input:hover {
+    background-color: rgb(246, 222, 6);
+}
+footer {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
